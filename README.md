@@ -111,7 +111,7 @@ Every `SKILL.md` includes `name`, `description`, `license`, `allowed-tools`, and
 - `metadata.trigger` describes the intended task; it is not a standardized activation switch.
 - `metadata.target-venue` is `IEEE Transactions journals`.
 - `metadata.language` is `en`.
-- `metadata.source_repository` identifies the source suite, not a published repository for this draft.
+- `metadata.source_repository` identifies the source suite.
 - `allowed-tools` lists conventional file, shell, and search tool names. The main and abstract skills also list `Task` for independent review.
 
 Tool names and support vary across hosts. Metadata does not grant execution permissions. Where PowerShell is required, use `pwsh`, strict error handling, and explicit UTF-8 text encoding.
