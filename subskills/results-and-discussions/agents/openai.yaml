@@ -1,0 +1,6 @@
+interface:
+  display_name: "IEEE Results and Discussions"
+  short_description: "Review experimental setup and mechanism-based discussion"
+  default_prompt: "Use $ieee-transactions-writing-results-and-discussions. Review the results discussion without repeating figure or table values."
+policy:
+  allow_implicit_invocation: true

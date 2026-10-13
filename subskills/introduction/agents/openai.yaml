@@ -1,0 +1,6 @@
+interface:
+  display_name: "IEEE Introduction and Contributions"
+  short_description: "Connect research gaps, motivation, and contributions"
+  default_prompt: "Use $ieee-transactions-writing-introduction. Review the introduction's motivation, research gap, and contribution claims."
+policy:
+  allow_implicit_invocation: true
