@@ -17,8 +17,6 @@ Although this is an agent writing skill, authors are encouraged to draw on its p
 
 ## Installation
 
-This is a local first draft. A separate public repository and remote installation command have not been configured.
-
 Copy the entire `ieee-transactions-writing` folder into the skills directory of your agent, retaining all subdirectories:
 
 | Agent | macOS / Linux | Windows |
