@@ -1,8 +1,6 @@
 # IEEE Transactions Paper Writing Skill
 
-A skill suite for planning, drafting, revising, and reviewing IEEE Transactions papers.
-
-Organize the paper around contributions and mechanisms, with affirmative phrasing, clear sentence logic, cross-section coherence, and qualitative interpretation of experimental results. The suite contains one main skill and seven section skills.
+An IEEE Transactions paper writing skill suite for academic writing and review with agents such as Codex and Claude Code, comprising one main skill and seven section skills.
 
 Although this is an agent writing skill, authors are encouraged to draw on its principles and **write the initial draft themselves**. This skill advocates using AI to assist with planning, organization, translation, revision, and polishing, rather than delegating the entire writing process to AI.
 
