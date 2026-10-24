@@ -33,7 +33,7 @@ Use the [template guide](references/template-guide.md) for an adaptable LaTeX ou
 - Place references near their claims. Avoid assigning multiple distinct claims to one long citation cluster at a paragraph's end.
 - **At most three references in one consecutive citation cluster.** Split larger clusters by specific subclaims or retain the most direct, representative sources. Count adjacent citation commands together and expand numbered ranges when counting.
 - Group related work by method ideas and relevance to the problem, not chronologically or by citation volume.
-- Prefer original studies directly supporting the claim. Reviews summarize a field but do not automatically replace original method sources.
+- Prefer original studies directly supporting the claim. Reviews summarize a field; trace citations for specific methods to the original papers whenever possible.
 - Cite inherited components and the closest related work, distinguishing inheritance from innovation.
 
 ## Default Display
@@ -84,11 +84,11 @@ BST support varies; verify the compiled output. Do not paste control fields into
 
 ### Tools and Full-Text Review
 
-- Before batch verification, read the [tool guide](references/tools.md) and run the read-only offline BibTeX/AUX audit. Online checks require explicit activation; do not rewrite bibliography files or citation keys automatically.
-- When the user requests online verification, prefer an installed compatible Bibverify CLI with `--dry-run --json`, following the [integration guide](references/bibverify-integration.md). Never use `--apply` or install/upgrade automatically. If unavailable or incompatible, use `scripts/verify_metadata.py` and disclose the backend without concealing network failures or conflicts.
+- Before batch verification, read the [tool guide](references/tools.md) and run the read-only offline BibTeX/AUX audit. Online checks require explicit activation.
+- When the user requests online verification, prefer an installed compatible Bibverify CLI with `--dry-run --json`, following the [integration guide](references/bibverify-integration.md). Never use `--apply` or install/upgrade automatically. If unavailable or incompatible, use `scripts/verify_metadata.py` and disclose the backend.
 - Bibverify checks the entire input bibliography and has no `--aux` filter. Confirm a cited-entry subset first when that is the scope. Use `scripts/check_updates.py` for retractions, corrections, and expressions of concern. Distinguish network failure, missing index records, metadata differences, and lack of textual support.
-- A DOI hit only establishes a returned record. Inspect comparisons, differences, and unchecked fields. Do not interpret `MATCHED_FIELDS` or Bibverify's `verified` as complete verification. Even exit code 0 requires checking `field_diffs`. No update notice does not prove that a paper has never been retracted.
-- For important claims, follow the [claim-support workflow](references/integrity-review.md), read the original text, and record evidence locations. Scripts do not verify manuscript claims or infer JCR quartiles.
-- See [source comparisons](references/source-comparison.md) for tool selection. Reuse useful verification ideas without adopting automatic rewriting or overriding this suite's formatting rules.
+- A DOI hit only establishes a returned record. Inspect comparisons, differences, and unchecked fields. Do not interpret `MATCHED_FIELDS` or Bibverify's `verified` as complete verification. Even exit code 0 requires checking `field_diffs`.
+- For important claims, follow the [claim-support workflow](references/integrity-review.md), read the original text, and record evidence locations.
+- See [source comparisons](references/source-comparison.md) for tool selection. Reuse useful verification ideas.
 
 For small edits, report the actual changes and concise results. For audits, use an entry/problem/source/action/status table if helpful. Do not expand ordinary formatting tasks into a full literature review. Stay within the applicable length budget.

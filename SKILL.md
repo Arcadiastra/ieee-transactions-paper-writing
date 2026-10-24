@@ -27,6 +27,16 @@ The main skill governs shared principles, section responsibilities, and acceptan
 
 ## Writing Workflow
 
+### Target Journal and Scope Verification
+
+Before planning, drafting, revising, or reviewing a paper, first establish the target journal. If it is unspecified, confirm it with the user. Then search online and read official pages from the journal or its sponsoring society to verify its Topics within the journal scope, topics out-of-scope, or equivalent scope statements. Record the source links and verification date. If the official site does not separately list out-of-scope topics, state that explicitly. If official evidence cannot be obtained, clearly tell the user that this check failed.
+
+Use the official scope to identify topics relevant to the paper and nouns or noun phrases naming their core research objects. Preserve the research objects, application settings, and other necessary qualifiers in those topics. Check them against the paper's research problem, core contributions, and validation, and check relevant out-of-scope entries. For an existing manuscript, use its current content as evidence; before drafting, check the proposed problem, objects, and contributions.
+
+**The title, abstract, and Index Terms must each clearly present at least one in-scope topic consistent with the paper's substance, and each must contain at least one corresponding core research-object term.** Accurate standard synonyms are permitted, and the same phrase may satisfy both requirements.
+
+**At any stage, immediately alert the user to an `out of scope` risk. Whether or not a confirmation dialog is available, wait for the user's confirmation before continuing related edits.**
+
 ### LaTeX Outlines
 
 Use the [template index](references/template-guide.md) when building a section outline. The snippets specify section order and paragraph responsibilities, not a fixed research topic or sentence pattern. Adapt them to the study. They do not replace an official typesetting template or the revision approval workflow.
@@ -71,12 +81,15 @@ Follow this order unless the user specifies another. Skip completed material. Fo
 4. Draft problem definition and methodology within their hard limits.
 5. Draft the introduction and organize, verify, and format citations.
 6. Distill the abstract, Index Terms, and conclusion.
-7. Adjust the full manuscript to the total page budget. First keep the abstract within 150-200 words. For a two-column final page, fill the left column and approximately 60% of the right column's text height; for a single-column final page, target approximately 80% of the text height.
+7. Perform a full-manuscript acceptance check without enforcing the total page limit at this stage.
+8. Adjust the full manuscript to the total page budget. First keep the abstract within 150-200 words. For a two-column final page, fill the left column and approximately 60% of the right column's text height; for a single-column final page, target approximately 80% of the text height.
+9. Perform a full-manuscript acceptance check.
 
 Respect section hard limits during drafting. In the final length pass, use recommended ranges while keeping the whole PDF within its limit.
 
 ## First Principles
 
+- Ensure that the research problem, core contributions, and validation align with the target journal's scope and pass the preceding target-journal and scope verification.
 - Organize the argument around contributions: important problem -> key obstacle -> novel mechanism -> experimental evidence -> significance.
 - Allocate space to mechanism innovation. Do not turn the body into an implementation checklist or research diary. Do not include filesystem paths. Avoid internal codes; if necessary, define their full names on first use.
 - Explain positively what the paper solves, how, and why it works. Unless requested, reserve limitations, unfinished work, and defensive negative boundary statements for the limitations and future work passage.
@@ -165,15 +178,16 @@ For newly added passages or missing context at section boundaries, explain the a
 
 Proofreading order:
 
-1. Compare the full structure with the suite's five-section structure; ask before major restructuring or rewriting.
-2. Compare each section with its section skill; ask before major restructuring or rewriting.
-3. Correct clear spelling, grammar, and formatting errors.
-4. Improve wording, sentences, paragraphs, transitions, and logical relations.
-5. Resolve clear internal mismatches and contradictions.
-6. Review misleading expressions and claims stronger than the evidence.
-7. Reduce repetition, retaining one detailed explanation or distinct perspectives where needed.
-8. Address other detailed issues.
-9. Align length and submission formatting.
+1. Check the journal's topic scope. If there is a clear `out of scope` risk, immediately alert the user through the environment's user-confirmation dialog. Explain the relevant official scope entries, the manuscript's current content, and whether the risk concerns unclear presentation or a substantive research mismatch. If no dialog tool is available, give an explicit conversational alert and wait for confirmation.
+2. Compare the full structure with the suite's five-section structure; ask before major restructuring or rewriting.
+3. Compare each section with its section skill; ask before major restructuring or rewriting.
+4. Correct clear spelling, grammar, and formatting errors.
+5. Improve wording, sentences, paragraphs, transitions, and logical relations.
+6. Resolve clear internal mismatches and contradictions.
+7. Review misleading expressions and claims stronger than the evidence.
+8. Reduce repetition, retaining one detailed explanation or distinct perspectives where needed.
+9. Address other detailed issues.
+10. Align length and submission formatting.
 
 Editing checks:
 
@@ -188,6 +202,7 @@ Editing checks:
 
 ## Overall Acceptance
 
+- The paper aligns with relevant topics within the target journal's scope, and the title, abstract, and Index Terms each contain at least one in-scope topic and at least one explicit noun naming a core research object within that scope.
 - Every core contribution has motivation, a method realization, and evidence.
 - Innovations connect across sections while retaining distinct roles.
 - Structure follows the suite or the user's explicit alternative.
