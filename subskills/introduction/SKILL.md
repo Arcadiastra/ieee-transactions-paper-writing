@@ -1,5 +1,5 @@
 ---
-name: ieee-transactions-writing-introduction
+name: ieee-transactions-paper-writing-introduction
 description: Plan, draft, revise, and review IEEE Transactions introductions. Connect application needs, challenges, related work, research gaps, method overviews, and contribution lists to problem analysis and methodological innovation.
 license: MIT
 allowed-tools: Read Write Edit Glob Grep Bash WebSearch WebFetch
@@ -7,7 +7,7 @@ metadata:
   language: en
   trigger: IEEE Transactions introduction planning, drafting, revision, and review.
   target-venue: IEEE Transactions journals
-  source_repository: https://github.com/Arcadiastra/ieee-transactions-writing-zh.git
+  source_repository: https://github.com/Arcadiastra/ieee-transactions-paper-writing-zh.git
 ---
 # Introduction
 

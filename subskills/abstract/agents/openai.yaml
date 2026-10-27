@@ -1,6 +1,6 @@
 interface:
   display_name: "IEEE Abstract and Index Terms"
   short_description: "Draft self-contained abstracts and searchable Index Terms"
-  default_prompt: "Use $ieee-transactions-writing-abstract. Distill the abstract and Index Terms from the body, and propose revisions first."
+  default_prompt: "Use $ieee-transactions-paper-writing-abstract. Distill the abstract and Index Terms from the body, and propose revisions first."
 policy:
   allow_implicit_invocation: true

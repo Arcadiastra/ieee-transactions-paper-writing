@@ -1,6 +1,6 @@
 interface:
-  display_name: "IEEE Transactions Writing"
+  display_name: "IEEE Transactions Paper Writing"
   short_description: "Plan and review contribution-driven IEEE Transactions papers"
-  default_prompt: "Use $ieee-transactions-writing. Review the paper structure and contribution chain, and propose revisions first."
+  default_prompt: "Use $ieee-transactions-paper-writing. Review the paper structure and contribution chain, and propose revisions first."
 policy:
   allow_implicit_invocation: true

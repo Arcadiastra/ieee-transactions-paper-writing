@@ -1,5 +1,5 @@
 ---
-name: ieee-transactions-writing-problem-definition
+name: ieee-transactions-paper-writing-problem-definition
 description: Plan, draft, revise, and review IEEE Transactions problem definitions and analyses. Formalize objects, inputs, outputs, objectives, and assumptions; unify notation; derive design requirements from the key difficulties.
 license: MIT
 allowed-tools: Read Write Edit Glob Grep Bash WebSearch WebFetch
@@ -7,7 +7,7 @@ metadata:
   language: en
   trigger: IEEE Transactions problem definition planning, drafting, revision, and review.
   target-venue: IEEE Transactions journals
-  source_repository: https://github.com/Arcadiastra/ieee-transactions-writing-zh.git
+  source_repository: https://github.com/Arcadiastra/ieee-transactions-paper-writing-zh.git
 ---
 # Problem Definition
 

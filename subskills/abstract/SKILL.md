@@ -1,5 +1,5 @@
 ---
-name: ieee-transactions-writing-abstract
+name: ieee-transactions-paper-writing-abstract
 description: Plan, draft, revise, and review IEEE Transactions abstracts and Index Terms. Build a self-contained account of the problem, challenges, mechanisms, and qualitative validation without specific numerical values, and select searchable keywords.
 license: MIT
 allowed-tools: Read Write Edit Glob Grep Bash WebSearch WebFetch Task
@@ -7,7 +7,7 @@ metadata:
   language: en
   trigger: IEEE Transactions abstract planning, drafting, revision, and review.
   target-venue: IEEE Transactions journals
-  source_repository: https://github.com/Arcadiastra/ieee-transactions-writing-zh.git
+  source_repository: https://github.com/Arcadiastra/ieee-transactions-paper-writing-zh.git
 ---
 # Abstract
 

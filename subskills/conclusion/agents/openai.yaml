@@ -1,6 +1,6 @@
 interface:
   display_name: "IEEE Conclusion"
   short_description: "Synthesize validated contributions and future directions"
-  default_prompt: "Use $ieee-transactions-writing-conclusion. Distill the conclusion and check its connection to the contributions."
+  default_prompt: "Use $ieee-transactions-paper-writing-conclusion. Distill the conclusion and check its connection to the contributions."
 policy:
   allow_implicit_invocation: true

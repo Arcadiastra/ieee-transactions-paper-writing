@@ -43,7 +43,7 @@ Use the [read-only configuration](../assets/bibverify-readonly.json), not the up
 - Other providers, persistent cache, and upstream report/backup/updated-bibliography/review-bibliography output are disabled.
 - The contact email is empty. Users may supply a real contact through `BIBVERIFY_EMAIL`; do not send a fabricated email.
 - To enable OpenAlex, Semantic Scholar, arXiv, DBLP, or other sources, explain the scope and current access requirements first, then copy and adjust the configuration in the working directory. Do not silently expand network access. Keep credentials in environment variables or protected local configuration, not the repository.
-- Output language is `EN`; the suite identifier is `ieee-transactions-writing`.
+- Output language is `EN`; the suite identifier is `ieee-transactions-paper-writing`.
 
 **`--dry-run` prevents file writes; it does not mean offline.** DOI lookup or title fallback sends bibliographic information to enabled databases and still requires authorization. It does not verify JCR quartiles or manuscript claims.
 

@@ -1,5 +1,5 @@
 ---
-name: ieee-transactions-writing-conclusion
+name: ieee-transactions-paper-writing-conclusion
 description: Plan, draft, revise, and review IEEE Transactions conclusions. Synthesize the problem formulation, insights, mechanisms, validated value, limitations, and future directions without repeating contribution lists or numerical results.
 license: MIT
 allowed-tools: Read Write Edit Glob Grep Bash WebSearch WebFetch
@@ -7,7 +7,7 @@ metadata:
   language: en
   trigger: IEEE Transactions conclusion planning, drafting, revision, and review.
   target-venue: IEEE Transactions journals
-  source_repository: https://github.com/Arcadiastra/ieee-transactions-writing-zh.git
+  source_repository: https://github.com/Arcadiastra/ieee-transactions-paper-writing-zh.git
 ---
 # Conclusion
 

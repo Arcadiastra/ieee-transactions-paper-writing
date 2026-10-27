@@ -1,6 +1,6 @@
 interface:
   display_name: "IEEE Citation Verification"
   short_description: "Verify source metadata, references, and claim support"
-  default_prompt: "Use $ieee-transactions-writing-citation. Run the offline citation audit, then outline online checks and full-text review."
+  default_prompt: "Use $ieee-transactions-paper-writing-citation. Run the offline citation audit, then outline online checks and full-text review."
 policy:
   allow_implicit_invocation: true

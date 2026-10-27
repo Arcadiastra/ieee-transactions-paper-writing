@@ -11,11 +11,11 @@ Although this is an agent writing skill, authors are encouraged to draw on its p
 ## Scope
 
 - Build paper outlines, draft sections, revise and review manuscripts, verify references, and control length.
-- Reuse the writing conventions and citation tooling of [ieee-transactions-writing-zh](https://github.com/Arcadiastra/ieee-transactions-writing-zh), with distinct skill names and localized documentation.
+- Reuse the writing conventions and citation tooling of [ieee-transactions-paper-writing-zh](https://github.com/Arcadiastra/ieee-transactions-paper-writing-zh), with distinct skill names and localized documentation.
 
 ## Installation
 
-Copy the entire `ieee-transactions-writing` folder into the skills directory of your agent, retaining all subdirectories:
+Copy the entire `ieee-transactions-paper-writing` folder into the skills directory of your agent, retaining all subdirectories:
 
 | Agent | macOS / Linux | Windows |
 | --- | --- | --- |
@@ -29,19 +29,19 @@ Reload skills or restart the agent, then invoke the main skill:
 Codex:
 
 ```text
-$ieee-transactions-writing
+$ieee-transactions-paper-writing
 ```
 
 Claude Code:
 
 ```text
-/ieee-transactions-writing
+/ieee-transactions-paper-writing
 ```
 
 ## Structure and Entry Points
 
 ```text
-ieee-transactions-writing/
+ieee-transactions-paper-writing/
 |-- SKILL.md
 |-- README.md
 |-- LICENSE
@@ -80,11 +80,11 @@ Each section skill has its own instructions, UI metadata, and outline template.
 ## Usage
 
 ```text
-$ieee-transactions-writing Review the paper structure and contribution chain. Propose changes without editing the manuscript yet.
+$ieee-transactions-paper-writing Review the paper structure and contribution chain. Propose changes without editing the manuscript yet.
 
-$ieee-transactions-writing-abstract Revise the abstract using the paper's actual findings. Show the original, revision, and rationale.
+$ieee-transactions-paper-writing-abstract Revise the abstract using the paper's actual findings. Show the original, revision, and rationale.
 
-$ieee-transactions-writing-results-and-discussions Check whether the discussion connects the results to the problem and mechanisms without repeating figure values.
+$ieee-transactions-paper-writing-results-and-discussions Check whether the discussion connects the results to the problem and mechanisms without repeating figure values.
 ```
 
 If the host does not discover nested skills independently, use the main skill to route the task or provide the relevant file path. All eight skills include `agents/openai.yaml` metadata.

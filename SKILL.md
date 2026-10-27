@@ -1,5 +1,5 @@
 ---
-name: ieee-transactions-writing
+name: ieee-transactions-paper-writing
 description: Plan, draft, revise, and review IEEE Transactions papers. Coordinate seven section skills around contributions, mechanisms, evidence, affirmative phrasing, cross-section coherence, and length control.
 license: MIT
 allowed-tools: Read Write Edit Glob Grep Bash WebSearch WebFetch Task
@@ -7,9 +7,9 @@ metadata:
   language: en
   trigger: Planning, drafting, revision, and review of IEEE Transactions-style academic papers.
   target-venue: IEEE Transactions journals
-  source_repository: https://github.com/Arcadiastra/ieee-transactions-writing-zh.git
+  source_repository: https://github.com/Arcadiastra/ieee-transactions-paper-writing-zh.git
 ---
-# IEEE Transactions Writing
+# IEEE Transactions Paper Writing
 
 ## Scope and Use
 

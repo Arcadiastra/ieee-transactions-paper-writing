@@ -1,5 +1,5 @@
 ---
-name: ieee-transactions-writing-citation
+name: ieee-transactions-paper-writing-citation
 description: Plan, draft, revise, and review IEEE Transactions citations and references. Find and verify sources, claim support, publication versions, bibliographic metadata, source quality, and BibTeX display conventions.
 license: MIT
 allowed-tools: Read Write Edit Glob Grep Bash WebSearch WebFetch
@@ -7,7 +7,7 @@ metadata:
   language: en
   trigger: IEEE Transactions citation and reference planning, drafting, revision, and review.
   target-venue: IEEE Transactions journals
-  source_repository: https://github.com/Arcadiastra/ieee-transactions-writing-zh.git
+  source_repository: https://github.com/Arcadiastra/ieee-transactions-paper-writing-zh.git
 ---
 # Citation
 

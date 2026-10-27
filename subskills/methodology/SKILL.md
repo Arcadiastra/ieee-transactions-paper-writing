@@ -1,5 +1,5 @@
 ---
-name: ieee-transactions-writing-methodology
+name: ieee-transactions-paper-writing-methodology
 description: Plan, draft, revise, and review IEEE Transactions methodology sections and method figures. Explain novel mechanisms through an overall framework, formal definitions, and theoretical reasoning while keeping non-core engineering details concise.
 license: MIT
 allowed-tools: Read Write Edit Glob Grep Bash WebSearch WebFetch
@@ -7,7 +7,7 @@ metadata:
   language: en
   trigger: IEEE Transactions methodology planning, drafting, revision, and review.
   target-venue: IEEE Transactions journals
-  source_repository: https://github.com/Arcadiastra/ieee-transactions-writing-zh.git
+  source_repository: https://github.com/Arcadiastra/ieee-transactions-paper-writing-zh.git
 ---
 # Methodology
 

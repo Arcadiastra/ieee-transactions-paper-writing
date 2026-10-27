@@ -1,5 +1,5 @@
 ---
-name: ieee-transactions-writing-results-and-discussions
+name: ieee-transactions-paper-writing-results-and-discussions
 description: Plan, draft, revise, and review IEEE Transactions experimental setups and results discussions. Organize baselines, metrics, figures, and tables; explain results qualitatively through mechanisms without repeating plotted or tabulated values.
 license: MIT
 allowed-tools: Read Write Edit Glob Grep Bash WebSearch WebFetch
@@ -7,7 +7,7 @@ metadata:
   language: en
   trigger: IEEE Transactions results and discussions planning, drafting, revision, and review.
   target-venue: IEEE Transactions journals
-  source_repository: https://github.com/Arcadiastra/ieee-transactions-writing-zh.git
+  source_repository: https://github.com/Arcadiastra/ieee-transactions-paper-writing-zh.git
 ---
 # Results and Discussions
 

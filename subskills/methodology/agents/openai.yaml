@@ -1,6 +1,6 @@
 interface:
   display_name: "IEEE Methodology"
   short_description: "Explain novel mechanisms, theory, and method figures"
-  default_prompt: "Use $ieee-transactions-writing-methodology. Check how the methodology addresses the problem and contributions."
+  default_prompt: "Use $ieee-transactions-paper-writing-methodology. Check how the methodology addresses the problem and contributions."
 policy:
   allow_implicit_invocation: true

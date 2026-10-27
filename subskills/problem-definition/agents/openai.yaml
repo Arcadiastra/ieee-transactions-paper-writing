@@ -1,6 +1,6 @@
 interface:
   display_name: "IEEE Problem Definition"
   short_description: "Formalize research tasks, notation, and key difficulties"
-  default_prompt: "Use $ieee-transactions-writing-problem-definition. Check the problem formulation, notation, and method motivation."
+  default_prompt: "Use $ieee-transactions-paper-writing-problem-definition. Check the problem formulation, notation, and method motivation."
 policy:
   allow_implicit_invocation: true
